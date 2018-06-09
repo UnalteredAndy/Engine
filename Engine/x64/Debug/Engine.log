@@ -1,0 +1,109 @@
+﻿  SceneNode.cpp
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(15): error C2061: syntax error: identifier 'XMVECTOR'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(16): error C3646: 'getPosition': unknown override specifier
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(16): error C2059: syntax error: '('
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(16): error C2238: unexpected token(s) preceding ';'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(18): error C2061: syntax error: identifier 'XMVECTOR'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(19): error C3646: 'getRotationMatrix': unknown override specifier
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(19): error C2059: syntax error: '('
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(19): error C2238: unexpected token(s) preceding ';'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(21): error C2061: syntax error: identifier 'XMVECTOR'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(22): error C3646: 'getScalingVector': unknown override specifier
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(22): error C2059: syntax error: '('
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(22): error C2238: unexpected token(s) preceding ';'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(23): error C3646: 'getScalingMatrix': unknown override specifier
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(23): error C2059: syntax error: '('
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(23): error C2238: unexpected token(s) preceding ';'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(25): error C3646: 'getTransform': unknown override specifier
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(25): error C2059: syntax error: '('
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(25): error C2238: unexpected token(s) preceding ';'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(27): error C3646: 'transformToParentSpace': unknown override specifier
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(27): error C2059: syntax error: '('
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(27): error C2238: unexpected token(s) preceding ';'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(32): error C3646: 'mPosition': unknown override specifier
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(33): error C3646: 'mOrientation': unknown override specifier
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(34): error C3646: 'mScaling': unknown override specifier
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(16): error C2511: 'void Engine::SceneNode::setPosition(DirectX::XMVECTOR)': overloaded member function not found in 'Engine::SceneNode'
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(7): note: see declaration of 'Engine::SceneNode'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(17): error C2065: 'mPosition': undeclared identifier
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(20): error C2039: 'getPosition': is not a member of 'Engine::SceneNode'
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(7): note: see declaration of 'Engine::SceneNode'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(22): error C2065: 'mPosition': undeclared identifier
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(22): error C2228: left of '.x' must have class/struct/union
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(22): note: type is 'unknown-type'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(22): error C2228: left of '.y' must have class/struct/union
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(22): note: type is 'unknown-type'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(22): error C2228: left of '.z' must have class/struct/union
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(22): note: type is 'unknown-type'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(22): error C2660: 'DirectX::XMVectorSet': function does not take 2 arguments
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(26): error C2511: 'void Engine::SceneNode::setRotation(DirectX::XMVECTOR)': overloaded member function not found in 'Engine::SceneNode'
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(7): note: see declaration of 'Engine::SceneNode'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(30): error C2065: 'mOrientation': undeclared identifier
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(30): error C2228: left of '._11' must have class/struct/union
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(30): note: type is 'unknown-type'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(30): error C2228: left of '._12' must have class/struct/union
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(30): note: type is 'unknown-type'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(30): error C2228: left of '._13' must have class/struct/union
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(30): note: type is 'unknown-type'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(30): error C2660: 'DirectX::XMVectorSet': function does not take 2 arguments
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(31): error C2065: 'mOrientation': undeclared identifier
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(34): error C2065: 'mOrientation': undeclared identifier
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(34): error C2228: left of '._21' must have class/struct/union
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(34): note: type is 'unknown-type'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(34): error C2228: left of '._22' must have class/struct/union
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(34): note: type is 'unknown-type'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(34): error C2228: left of '._23' must have class/struct/union
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(34): note: type is 'unknown-type'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(34): error C2660: 'DirectX::XMVectorSet': function does not take 2 arguments
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(35): error C2065: 'mOrientation': undeclared identifier
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(38): error C2065: 'mOrientation': undeclared identifier
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(38): error C2228: left of '._31' must have class/struct/union
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(38): note: type is 'unknown-type'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(38): error C2228: left of '._32' must have class/struct/union
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(38): note: type is 'unknown-type'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(38): error C2228: left of '._33' must have class/struct/union
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(38): note: type is 'unknown-type'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(38): error C2660: 'DirectX::XMVectorSet': function does not take 2 arguments
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(39): error C2065: 'mOrientation': undeclared identifier
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(43): error C2039: 'getRotationMatrix': is not a member of 'Engine::SceneNode'
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(7): note: see declaration of 'Engine::SceneNode'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(47): error C2065: 'mOrientation': undeclared identifier
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(51): error C2511: 'void Engine::SceneNode::setScalingVector(DirectX::XMVECTOR)': overloaded member function not found in 'Engine::SceneNode'
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(7): note: see declaration of 'Engine::SceneNode'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(52): error C2065: 'mScaling': undeclared identifier
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(55): error C2039: 'getScalingVector': is not a member of 'Engine::SceneNode'
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(7): note: see declaration of 'Engine::SceneNode'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(57): error C2065: 'mScaling': undeclared identifier
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(57): error C2228: left of '.x' must have class/struct/union
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(57): note: type is 'unknown-type'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(57): error C2228: left of '.y' must have class/struct/union
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(57): note: type is 'unknown-type'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(57): error C2228: left of '.z' must have class/struct/union
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(57): note: type is 'unknown-type'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(57): error C2660: 'DirectX::XMVectorSet': function does not take 2 arguments
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(60): error C2039: 'getScalingMatrix': is not a member of 'Engine::SceneNode'
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(7): note: see declaration of 'Engine::SceneNode'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(62): error C2065: 'mScaling': undeclared identifier
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(62): error C2228: left of '.x' must have class/struct/union
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(62): note: type is 'unknown-type'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(62): error C2228: left of '.y' must have class/struct/union
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(62): note: type is 'unknown-type'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(62): error C2228: left of '.z' must have class/struct/union
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(62): note: type is 'unknown-type'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(62): error C2660: 'DirectX::XMMatrixScaling': function does not take 1 arguments
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(65): error C2039: 'getTransform': is not a member of 'Engine::SceneNode'
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(7): note: see declaration of 'Engine::SceneNode'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(67): error C2065: 'mPosition': undeclared identifier
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(67): error C2228: left of '.x' must have class/struct/union
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(67): note: type is 'unknown-type'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(67): error C2228: left of '.y' must have class/struct/union
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(67): note: type is 'unknown-type'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(67): error C2228: left of '.z' must have class/struct/union
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(67): note: type is 'unknown-type'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(67): error C2660: 'DirectX::XMMatrixTranslation': function does not take 1 arguments
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(70): error C2039: 'transformToParentSpace': is not a member of 'Engine::SceneNode'
+  c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.h(7): note: see declaration of 'Engine::SceneNode'
+c:\users\andreas\documents\visual studio 2015\projects\engine\engine\scenenode.cpp(70): error C2061: syntax error: identifier 'TransformSpace'
